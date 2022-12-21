@@ -1,13 +1,7 @@
 package abstraction;
 
 public abstract class Car {
-	//abstract int id;
-	/*
-	 * int id;
-	 * 
-	 * 
-	 * public int getId() { return id; } public void setId(int id) { this.id = id; }
-	 */
+	
 	int speed;
 	Car(int speed)
 	{
@@ -28,5 +22,15 @@ public abstract class Car {
 	 
 
  }
+
+
+
+//abstract int id;
+	/*
+	 * int id;
+	 * 
+	 * 
+	 * public int getId() { return id; } public void setId(int id) { this.id = id; }
+	 */
 
 	 
