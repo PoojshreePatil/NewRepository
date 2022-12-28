@@ -6,7 +6,15 @@ package interfacePrograms;
 	  void multiplication(int a,int b);
 	  void division(int a,int b);
 	  void substraction(int a,int b);
-	 
+	  default void show()
+	  {
+		  System.out.println("Show All data");
+		  moduloDivision(10,2);
+	  }
+	  private void moduloDivision(int a,int b)
+	  {
+		  System.out.println(a % b );
+	  }
    }
  class SciCalculator implements Calculator
  {
@@ -58,6 +66,7 @@ public class CalculatorMain {
 		sc.multiplication(4,5);
 		sc.division(8, 2);
 		sc.substraction(20,8);
+		sc.show();
 	}
 
 }

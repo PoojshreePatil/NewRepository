@@ -4,6 +4,10 @@ public class StringLengthExample {
 
 	int getStringLength(String s) throws NullPointerException
 	{
+		if(s== null)
+		{
+			throw new NullPointerException("String is null .....Null String is not allowed");
+		}
 		return s.length();
 	}
 	
