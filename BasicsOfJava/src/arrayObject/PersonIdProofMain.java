@@ -22,7 +22,7 @@ public class PersonIdProofMain {
 		    IdProof i1[] = new IdProof[2]; 
 		    
 		    	//System.out.println("Enter IdName ,Validity: ");
-		    	for(int j = 0;j< p1.length;j++)
+		    	for(int j = 0;j< i1.length;j++)
 				{
 		    		System.out.println("Enter IdName ,Validity: ");
 			    	String inm = sc.next();

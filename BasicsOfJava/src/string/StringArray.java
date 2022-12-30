@@ -69,6 +69,9 @@ public class StringArray {
 		}
 		
 		System.out.println(Arrays.toString(s));
+		
+		
+		
 	}
 
 }

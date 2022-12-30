@@ -6,9 +6,9 @@ public class EmployeeMain1 {
 
 	
 		Scanner sc = new Scanner(System.in);
-		Employee e[] = new Employee[5];
+		Employee1 e[] = new Employee1[5];
 		
-		Employee1 e1 = new Employee1();
+		
 		void insertdata()
 		{
 		for(int i = 0;i< 5 ;i++)
@@ -20,24 +20,25 @@ public class EmployeeMain1 {
 			  int esalary =sc.nextInt();
 			  String edept = sc.next();
 			  
-			    e1.;
-	  		    e1.setName(ename);
-	  		    e1.setSalary(esalary);
-	  		    e1.setDept(edept);
+			  Employee1 e2 = new Employee1();
+			    e2.setId(eid);;
+	  		    e2.setName(ename);
+	  		    e2.setSalary(esalary);
+	  		    e2.setDept(edept);
 		   
 		   
-		        e[i] = e1;
+		        e[i] = e2;
 		}
 		
-		
+		}
 		  public static void main(String[] args) {
 			  
 			  EmployeeMain1 em = new EmployeeMain1();
-		   em.insertdata( );
-		   em.viewData();
-		   em.viewSpecificData();
-		   em.updataData();
-		   em.deleteData();
+		      em.insertdata( );
+		      em.viewData();
+		      em.viewSpecificData();
+		      em.updataData();
+		      em.deleteData();
 	}
 
 }

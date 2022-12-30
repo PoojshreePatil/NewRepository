@@ -2,10 +2,10 @@ package interfacePrograms;
 
   interface Calculator
    {
-	  void addition(int a,int b);
-	  void multiplication(int a,int b);
-	  void division(int a,int b);
-	  void substraction(int a,int b);
+	  abstract void addition(int a,int b);
+	  abstract void multiplication(int a,int b);
+	  abstract void division(int a,int b);
+	  abstract void substraction(int a,int b);
 	  default void show()
 	  {
 		  System.out.println("Show All data");

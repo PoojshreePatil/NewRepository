@@ -19,6 +19,7 @@ public class Thehater1Movie1Main {
 			 Theater1 t1 = new Theater1();
 			t1.setId(id);
 			t1.setName(name);
+			
 			//s.setDept(dept);
 			//s.setMarks(marks);
 			Movie1[] m= new Movie1[2] ;
@@ -29,12 +30,13 @@ public class Thehater1Movie1Main {
 				 String mname =sc.next();
 				 int mreleaseyr = sc.nextInt();
 				 Movie1 m1= new Movie1();
-				 m1.setId(1);
-				 m1.setName(name);
+				 m1.setId(mid);
+				 m1.setName(mname);
 				 m1.setReleaseyear(mreleaseyr);
 				 
 			    m[j] = m1;
 			 }
+		    	t1.setM(m);
 			 thtr[i] = t1;
 		 }
 		for(Theater1 t : thtr)

@@ -2,11 +2,11 @@ package abstraction;
 
 public class Swift extends Car {
 	
-	
 	  Swift()
 	  {
-		  super(100); System.out.println("Constructor of Swift");
-	}
+		  super(100);
+          System.out.println("Constructor of Swift");
+	  }
 	 
 	void dashboard()
 	{

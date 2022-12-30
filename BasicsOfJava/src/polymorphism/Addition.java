@@ -3,9 +3,10 @@ package polymorphism;
 public class Addition {
 
 	
-	void add(int a,int b)
+	int add(int a,int b)
 	{
 		System.out.println("Addition of int and int :"+(a+b));
+		return (a+b);
 	}
 	void add(int a,String b)
 	{
@@ -14,6 +15,7 @@ public class Addition {
 	void add(int a,float b)
 	{
 		System.out.println("Addition of int and float :"+(a+b));
+		//return (a+b);
 	}
 	void add(String a,String b)
 	{
