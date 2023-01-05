@@ -16,8 +16,12 @@ public class ValueOfMethod {
 	    Integer i3 = Integer.valueOf("4321", 5); // 4*5^3  + 3*5^2 +  2*5^1  +  1*5^0
 	    System.out.println(i3);                  //  4* 125   + 3 * 25  + 2*5 + 1* 1
 	                                             // 500 + 75 +10+1   =586
+	    String s = "12233"; 
+	   int x=  Integer .parseInt(s);
+	   System.out.println(x);
 	    
-	    
+	   float fl = Float.parseFloat("21.34");
+	   System.out.println(fl);
 	    //Integer i3 = Integer.valueOf("3210", 4); // 3*4^3 + 2*4^2+   1*4^1 + 0*4^0
 	   // System.out.println(i3);      
 	    //
@@ -41,6 +45,8 @@ public class ValueOfMethod {
 	    
 	    Boolean b1 = Boolean.valueOf("true");
 	    System.out.println(b1);
+	    
+	    
 	}
 
 }
